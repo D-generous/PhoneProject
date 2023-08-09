@@ -1,0 +1,216 @@
+@keyframes scale {
+    0% {
+        background-image: url('./pexels-shonejai-1227497.jpg');
+    } 
+    25% {
+        background-image: url('./pexels-fernando-makoto-1429567.jpg');
+    }
+    75%{
+        background-image: url('./pexels-moose-photos-1037992.jpg');
+    }
+    100%{
+        background-image: url('./pexels-timothy-paule-ii-2002719.jpg');
+    }
+}
+#section3{
+    margin-top: 50px;
+}
+
+#wall{
+    height: 70vh;
+    width: 250px;
+    background-image: url(./backgroung1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+#wall2{
+    height: 70vh;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: scale;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-duration: 25000ms;
+    /* display: none; */
+}
+
+#powerOn{
+    position: absolute;
+    right: -5px;
+    top: 60px;
+    z-index: 6;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(120, 116, 116);
+}
+#power{
+    position: absolute;
+    right: -5px;
+    height: 50px;
+    top: 60px;
+    border: none;
+    background-color: rgb(120, 116, 116);
+    border-radius: 5px;
+}
+
+
+
+
+#time{
+    position: absolute;
+    font-size: 30px                                                                                                                                                                                                                                                                                                   ;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#others{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 160px;
+    gap: 120px;
+}
+#others div p{
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+}
+#flexBox{
+    display: flex;
+    gap: 20px;
+    border: 1px solid;
+    background-color: bisque;
+    position: absolute;
+    /* margin-top: 275px; */
+    /* margin-bottom: 0px; */
+    /* justify-content: end; */
+    bottom: 20px;
+    margin-left: 18px;
+    padding: 20px;
+    border-radius: 25px;
+}
+/* img{
+    width: 45px;
+    border-radius: 10px;
+} */
+#section1{
+    display: none;
+    width: 260px;
+    margin: auto;
+    background-color: #FFFFFF;
+    /* border: 1px solid; */
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.1);
+}
+#board{
+    height: 60px;
+    margin: auto;
+    text-align: center; 
+    margin-top: 20px; 
+    /* border: 1px solid; */
+}
+#disp{
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    width: 260px;
+}
+#gridBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+
+}
+#gridItem{
+    height: 65px;
+    width: 65px;
+    border: none;
+    border-radius: 35px;
+    font-size: 30px;
+
+}
+#gridItem:nth-of-type(13){
+    background-color: green;
+    color: white;
+    grid-column: 2/3;
+}
+#gridItem:nth-of-type(14){
+    height: 23px;
+    width: 22px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#back{
+    width: 100px;
+    height: 5px;
+    border: 1px solid;
+    margin: auto;
+    background-color: black;
+    border-radius: 2px;
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
+}
+
+
+
+
+#section2{
+    color: white;
+    width: 285px;
+    color: white;
+    background-color: #63322B;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+#dialer{
+    padding-top: 30px;
+}
+#caller{
+    font-size: 30px;
+}
+#gridBox2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 50px;
+    
+
+}
+
+#box{
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #da9287;
+}
+.fa{
+    color: white;
+}
+#dial{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #FF0000;
+    color: white;
+}
